@@ -61,11 +61,6 @@ namespace rotativatogy.Controllers
         }
 
 
-        public IActionResult DemoViewAsHTML()
-        {
-            return View();
-        }
-
         [Authorize]
 
         public IActionResult Index()

@@ -19,35 +19,6 @@ namespace rotativatogy.Controllers
         }
 
 
-        //[HttpGet]
-        //public async Task<IActionResult> EditUser(string id)
-        //{
-        //    var user = await userManager.FindByIdAsync(id);
-
-        //    if (user == null)
-        //    {
-        //        ViewBag.ErrorMessage = $"{id} User Id li kullanıcı yoktur.";
-        //        return View("NotFound");
-        //    }
-
-
-        //    var userRoles = await userManager.GetRolesAsync(user);
-
-        //    var model = new EditUserViewModel
-        //    {
-        //        Id = user.Id,
-        //        Email = user.Email,
-        //        AdSoyad = user.AdSoyad,
-        //        Kurum = user.Kurum,
-        //        Bolum = user.Bolum,
-        //        Unvan = user.Unvan,
-        //        Telefon = user.Telefon
-        //        //Roles=userRoles
-        //    };
-
-        //    return View(model);
-        //}
-
         public async Task<IActionResult> Certificate(string id)
         {
 
